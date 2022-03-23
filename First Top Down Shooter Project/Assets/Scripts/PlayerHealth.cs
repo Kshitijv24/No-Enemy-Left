@@ -12,6 +12,9 @@ public class PlayerHealth : MonoBehaviour
     public float currentPlayerHealth;
 
     public HealthBarScript healthBar;
+    public Animator hurtAnimation;
+
+    private Animator cameraAnim;
 
     private void Awake()
     {
@@ -22,16 +25,17 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void Start()
-    {
+    void Start(){
 
         currentPlayerHealth = maxPlayerHealth;
         healthBar.SetMaxHealth(maxPlayerHealth);
+        cameraAnim = Camera.main.GetComponent<Animator>();
     }
 
-    public void TakeDamage(float damage)
-    {
+    public void TakeDamage(float damage){
 
+        cameraAnim.SetTrigger("shake");
+        hurtAnimation.SetTrigger("hurt");
         currentPlayerHealth -= damage;
         healthBar.SetHealth(currentPlayerHealth);
 
