@@ -146,3 +146,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitEffect: {fileID: 3308112355967153127, guid: e6def4ad9003fee4ebc2174f306e5f41, type: 3}
   damage: 1
+  soundObject: {fileID: 4162617185755371670, guid: 2ab1997be5546dc4495a1fc5c338a578, type: 3}

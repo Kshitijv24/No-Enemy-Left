@@ -7,6 +7,12 @@ public class BulletScript : MonoBehaviour
 {
     public GameObject hitEffect;
     public int damage;
+    public GameObject soundObject;
+
+    private void Start(){
+
+        Instantiate(soundObject, transform.position, transform.rotation);
+    }
 
     private void OnTriggerEnter2D(Collider2D collision){
 
