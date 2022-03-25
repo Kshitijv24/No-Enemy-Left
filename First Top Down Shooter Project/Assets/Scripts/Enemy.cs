@@ -9,6 +9,8 @@ public class Enemy : MonoBehaviour
     public float timeBetweenAttacks;
     public int healthPickupChance;
     public GameObject healthPickup;
+    public GameObject enemyDeathSound;
+    
 
     [HideInInspector]
     public Transform player;
@@ -32,6 +34,8 @@ public class Enemy : MonoBehaviour
 
                 Instantiate(healthPickup, transform.position, Quaternion.identity);
             }
+
+            Instantiate(enemyDeathSound, transform.position, transform.rotation);
 
             Instantiate(deathEffectPartical, transform.position, Quaternion.identity);
             Destroy(this.gameObject);

@@ -3,7 +3,11 @@ guid: b29a5033f3bad14459244bbe398fed6f
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - healthPickup: {instanceID: 0}
+  - enemyDeathSound: {instanceID: 0}
+  - player: {instanceID: 0}
+  - deathEffectPartical: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

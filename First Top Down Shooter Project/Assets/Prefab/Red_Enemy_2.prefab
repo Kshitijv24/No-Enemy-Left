@@ -379,6 +379,7 @@ MonoBehaviour:
   timeBetweenAttacks: 1.5
   healthPickupChance: 5
   healthPickup: {fileID: 5208039460996327131, guid: 1db0de9ab754b9e4195b324957d28d9e, type: 3}
+  enemyDeathSound: {fileID: 1512073999766869175, guid: 918f926711f3d0b4caedadc32128770a, type: 3}
   player: {fileID: 0}
   deathEffectPartical: {fileID: 5754004485611132370, guid: d2bb094d8202ff94db4e0fddb6931803, type: 3}
   bulletPrefab: {fileID: 4174089453888726088, guid: 054f4118b9b401e4dbf2913827f3d12a, type: 3}
