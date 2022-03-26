@@ -271,6 +271,7 @@ MonoBehaviour:
   - {fileID: 6232505550172466072, guid: 7ee22cfbfad3391499f26faf88b26e40, type: 3}
   spawnOffset: 5
   damage: 2
+  bossDeathEffect: {fileID: 2422113979129289249, guid: e44839acb465a3a4bb2814901f199317, type: 3}
 --- !u!1 &2841443417125582900
 GameObject:
   m_ObjectHideFlags: 0

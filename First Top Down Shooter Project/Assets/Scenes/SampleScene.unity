@@ -185,31 +185,8 @@ MonoBehaviour:
   waves:
   - enemies:
     - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
-    enemyCount: 5
+    enemyCount: 1
     timeBetweenSpawns: 1
-  - enemies:
-    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
-    - {fileID: 8848174278479042500, guid: 706d74d7642045242b2cb0f6b277c46b, type: 3}
-    enemyCount: 10
-    timeBetweenSpawns: 1
-  - enemies:
-    - {fileID: 7166306742067448000, guid: 02ac85f086ab8f94287af275920ee9a6, type: 3}
-    enemyCount: 5
-    timeBetweenSpawns: 1
-  - enemies:
-    - {fileID: 7166306742067448000, guid: 02ac85f086ab8f94287af275920ee9a6, type: 3}
-    - {fileID: 4069990552981441776, guid: b26a23fd3921b2a4e8cd6133c3eb4f91, type: 3}
-    enemyCount: 10
-    timeBetweenSpawns: 2
-  - enemies:
-    - {fileID: 7674105952915586504, guid: adac75e230158b149845313e2d9b9e15, type: 3}
-    enemyCount: 5
-    timeBetweenSpawns: 2
-  - enemies:
-    - {fileID: 7674105952915586504, guid: adac75e230158b149845313e2d9b9e15, type: 3}
-    - {fileID: 6232505550172466072, guid: 7ee22cfbfad3391499f26faf88b26e40, type: 3}
-    enemyCount: 10
-    timeBetweenSpawns: 3
   spawnPoints:
   - {fileID: 1324452742}
   - {fileID: 211697543}

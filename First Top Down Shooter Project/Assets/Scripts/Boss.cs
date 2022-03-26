@@ -8,6 +8,7 @@ public class Boss : MonoBehaviour
     public Enemy[] enemies;
     public float spawnOffset;
     public int damage;
+    public GameObject bossDeathEffect;
 
     private int halfHealth;
     private Animator anim;
@@ -28,6 +29,7 @@ public class Boss : MonoBehaviour
 
         if (health <= 0) {
 
+            Instantiate(bossDeathEffect, transform.position, transform.rotation);
             Destroy(this.gameObject);
         }
 
