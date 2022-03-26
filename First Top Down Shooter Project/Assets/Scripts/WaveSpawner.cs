@@ -17,6 +17,7 @@ public class WaveSpawner : MonoBehaviour{
     public float timeBetweenWaves;
     public GameObject boss;
     public Transform bossSpawnPoint;
+    public GameObject bossHealthBar;
 
     private Wave currentWave;
     private int currentWaveIndex;
@@ -79,6 +80,7 @@ public class WaveSpawner : MonoBehaviour{
             else{
 
                 Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
+                bossHealthBar.SetActive(true);
             }
         }
     }
