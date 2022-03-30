@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WaveSpawner : MonoBehaviour{
 
@@ -18,6 +19,9 @@ public class WaveSpawner : MonoBehaviour{
     public GameObject boss;
     public Transform bossSpawnPoint;
     public GameObject bossHealthBar;
+
+    [HideInInspector]
+    public bool bossDied = false;
 
     private Wave currentWave;
     private int currentWaveIndex;
@@ -82,6 +86,12 @@ public class WaveSpawner : MonoBehaviour{
                 Instantiate(boss, bossSpawnPoint.position, bossSpawnPoint.rotation);
                 bossHealthBar.SetActive(true);
             }
+        }
+
+        if(bossDied == true && GameObject.FindGameObjectsWithTag("Enemy").Length == 0)
+        {
+            SceneManager.LoadScene("YouWin");
+            Debug.Log("you win");
         }
     }
 }

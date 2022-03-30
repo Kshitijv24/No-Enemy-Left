@@ -36,6 +36,7 @@ public class Boss : MonoBehaviour
 
         if (health <= 0) {
 
+            FindObjectOfType<WaveSpawner>().bossDied = true;
             Instantiate(bossDeathEffect, transform.position, transform.rotation);
             Destroy(this.gameObject);
             healthBarSlider.gameObject.SetActive(false);
@@ -63,5 +64,7 @@ public class Boss : MonoBehaviour
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = angle;
+
+        
     }
 }

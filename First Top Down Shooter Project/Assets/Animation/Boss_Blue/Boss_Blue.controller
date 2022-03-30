@@ -11,13 +11,13 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1453244236825875491}
-    m_Position: {x: 300, y: -20, z: 0}
+    m_Position: {x: 280, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6812307702986253883}
     m_Position: {x: 360, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7921961090306667500}
-    m_Position: {x: 480, y: 50, z: 0}
+    m_Position: {x: 490, y: 30, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -67,7 +67,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -210,4 +210,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c14a13386ad24704a9c4a6e0a6806d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 13
+  speed: 6
