@@ -187,6 +187,42 @@ MonoBehaviour:
     - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
     enemyCount: 1
     timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
+  - enemies:
+    - {fileID: 5607036948667056656, guid: 55be6369b70d0d044be5e849d77b6520, type: 3}
+    enemyCount: 1
+    timeBetweenSpawns: 1
   spawnPoints:
   - {fileID: 1324452742}
   - {fileID: 211697543}
